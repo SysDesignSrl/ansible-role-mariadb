@@ -44,7 +44,7 @@
   include_tasks: root-password.yml
   when:
     - not mariadb_auth_unix_plugin
-    - mariadb_version is version('10.4', '<')
+    # - mariadb_version is version('10.4', '<')
   tags: mariadb
 
 - name: Enable plugin unix_socket

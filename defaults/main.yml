@@ -40,3 +40,6 @@ mariadb_custom_cnf: {}
 mariadb_ssl_ca_crt: null
 mariadb_ssl_server_crt: null
 mariadb_ssl_server_key: null
+
+# Current root password
+mariadb_current_root_password: ""
